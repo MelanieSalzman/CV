@@ -4,18 +4,32 @@
 
 @media only screen and (min-width:480px){
     
-    #container{
-        width: 100em;
+    body{
         background-color: lightslategrey;
     }
 
+    #container{
+    width: 600px;
+    border: 1px solid black; 
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: white;
+    }
+
+    /*Aside section*/
     aside{
-        background-color: blue;
+        background-color: #203572;
         float: left;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 
     #name {
-        color: lightslategrey;
+        text-align:center;
+        font-size: 16px;
+        font-family: "Open Sans";
+        font-weight: bolder;
+        color: #3fc7df;
     }
 
     img {
@@ -25,20 +39,94 @@
 
     #imgContainer {
         max-width: 7em;
-        
+        display:block;
+        margin:auto;   
     }
 
+    .titleAside{
+        font-size: 14px;
+        font-family: "Open Sans";
+        font-weight: bolder;
+        color: #3fc7df;
+    }
+
+    .subtitleAside{
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        font-weight: bolder;
+        color: #3fc7df;
+    }
+
+    p{
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: white;
+    }
+
+    #leftIcons {
+        display:inline-block;
+    }
+
+    #phoneContainer {
+        max-width: 2em;
+    }
+    #emailContainer {
+        max-width: 2em;
+    }
+    #inContainer {
+        max-width: 2em;
+    }
+    #homeContainer {
+        max-width: 2em;
+    }
+
+    #rightContact {
+        display:inline-block
+    }
+
+    #leftContainer{
+        display: inline-block;
+    }
+    #rightContainer{
+        display: inline-block;
+    }
+
+    /*Main Section*/
     section{
         background-color: white;
         float: left;
     }
 
     .sectionTitle{
-        background-color: blue;
+        background-color:  #203572;
         margin: 1em;
         padding: .3em;
-        font-size: 24px;
-        color: lightblue;
+        font-size: 14.7px;
+        color: #3fc7df;
+        font-family: "Open Sans";
+        font-weight: bolder;
+    }
+
+    .subtitle{
+        margin-left: 1.5em;
+        font-size: 13.6px;
+        font-family: "Open Sans";
+        font-weight: bolder;
+        color: #3fc7df;
+    }
+
+    .date{
+        margin-left: 1.5em;
+        font-size: 10px;
+        font-family: "Open Sans";
+        color: black;
+    }
+
+    .description{
+        margin-left: 1.5em;
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: black;
     }
 
     }
