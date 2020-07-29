@@ -30,6 +30,8 @@
         font-family: "Open Sans";
         font-weight: bolder;
         color: #3fc7df;
+        margin-top: 1.2em;
+        margin-bottom: .1em;
     }
 
     img {
@@ -68,16 +70,20 @@
     }
 
     #phoneContainer {
-        max-width: 2em;
+        max-width: 1.5em;
+        margin: .2em;
     }
     #emailContainer {
-        max-width: 2em;
+        max-width: 1.5em;
+        margin: .2em;
     }
     #inContainer {
-        max-width: 2em;
+        max-width: 1.5em;
+        margin: .2em;
     }
     #homeContainer {
-        max-width: 2em;
+        max-width: 1.5em;
+        margin: .2em;
     }
 
     #rightContact {
