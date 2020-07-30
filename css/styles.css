@@ -1,4 +1,152 @@
-@media only screen and (min-width:320px) and (max-width:480px){
+@media only screen and (min-width:280px) and (max-width:480px){
+
+    body{
+        background-color: lig   3tslategrey;
+    }
+
+    #container{
+    width: 280px;
+    border: 1px solid black; 
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: white;
+    }
+
+    /*Aside section*/
+    aside{
+        background-color: #203572;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    #name {
+        text-align:center;
+        font-size: 16px;
+        font-family: "Open Sans";
+        font-weight: bolder;
+        color: #3fc7df;
+        margin-top: 1.2em;
+        margin-bottom: .1em;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #imgContainer {
+        max-width: 7em;
+        display:block;
+        margin:auto;   
+    }
+
+    .titleAside{
+        font-size: 14px;
+        font-family: "Open Sans";
+        font-weight: bolder;
+        color: #3fc7df;
+    }
+
+    .subtitleAside{
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        font-weight: bolder;
+        color: #3fc7df;
+    }
+
+    .textAside{
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: white;
+        display: block;
+        margin-bottom: 1em;
+        margin-top: 0.5em;
+    }
+
+    p{
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: white;
+    }
+
+    #leftIcons {
+        display:inline-block;
+    }
+
+    #phoneContainer {
+        max-width: 1em;
+        margin-top: 0.6em;
+        margin-right: 1em;
+    }
+    #emailContainer {
+        max-width: 1em;
+        margin-top: 0.6em;
+        margin-right: 1em;
+    }
+    #inContainer {
+        max-width: 1em;
+        margin-top: 0.6em;
+        margin-right: 1em;
+    }
+    #homeContainer {
+        max-width: 1.4em;
+        margin-top: 0.7em;
+        margin-right: 1em; 
+        margin-left: -0.1em;
+    }
+
+    #rightContact {
+        display:inline-block
+    }
+
+    #leftContainer{
+        display: inline-block;
+    }
+    #rightContainer{
+        display: inline-block;
+    }
+
+    /*Main Section*/
+    section{
+        background-color: white;
+    }
+
+    .sectionTitle{
+        background-color:  #203572;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 0.7em;
+        margin-bottom: 0.5em;
+        padding: .3em;
+        font-size: 14.7px;
+        color: #3fc7df;
+        font-family: "Open Sans";
+        font-weight: bolder;
+    }
+
+    .subtitle{
+        margin-left: 1.1em;
+        font-size: 13.6px;
+        font-family: "Open Sans";
+        font-weight: bolder;
+        color: #3fc7df;
+    }
+
+    .date{
+        margin-left: 1.5em;
+        font-size: 10px;
+        font-family: "Open Sans";
+        color: black; 
+        margin-bottom: 0.3em;
+    }
+
+    .description{
+        margin-left: 1.5em;
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: black;
+        margin-bottom: 0.3em;
+    }
     
     }
 
@@ -40,7 +188,7 @@
     }
 
     #imgContainer {
-        max-width: 7em;
+        max-width: 6em;
         display:block;
         margin:auto;   
     }
@@ -50,6 +198,7 @@
         font-family: "Open Sans";
         font-weight: bolder;
         color: #3fc7df;
+        display:block;
     }
 
     .subtitleAside{
@@ -59,6 +208,23 @@
         color: #3fc7df;
     }
 
+    .textAside{
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: white;
+        display: block;
+        margin-bottom: 1em;
+        margin-top: 0.5em;
+    }
+
+    .textLanguages{
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: white;
+        display: block;
+        margin-bottom: 0.5em;
+    }
+
     p{
         font-size: 10.5px;
         font-family: "Open Sans";
@@ -66,35 +232,43 @@
     }
 
     #leftIcons {
-        display:inline-block;
+        float:left;
     }
 
     #phoneContainer {
-        max-width: 1.5em;
-        margin: .2em;
+        max-width: 1em;
+        margin-top: 0.6em;
+        margin-right: 1em;
     }
     #emailContainer {
-        max-width: 1.5em;
-        margin: .2em;
+        max-width: 1em;
+        margin-top: 0.6em;
+        margin-right: 1em;
     }
     #inContainer {
-        max-width: 1.5em;
-        margin: .2em;
+        max-width: 1em;
+        margin-top: 0.6em;
+        margin-right: 1em;
     }
     #homeContainer {
-        max-width: 1.5em;
-        margin: .2em;
+        max-width: 1.4em;
+        margin-top: 0.7em;
+        margin-right: 1em;
+        margin-left: -0.1em;
     }
 
     #rightContact {
-        display:inline-block
+        float:left
     }
 
     #leftContainer{
-        display: inline-block;
+        float:left;
+        margin-right: 1em;
+        margin-top: 0.7em;
     }
     #rightContainer{
-        display: inline-block;
+        float:left;
+        margin-top: 0.7em;
     }
 
     /*Main Section*/
@@ -105,7 +279,10 @@
 
     .sectionTitle{
         background-color:  #203572;
-        margin: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 0.7em;
+        margin-bottom: 0.5em;
         padding: .3em;
         font-size: 14.7px;
         color: #3fc7df;
@@ -114,7 +291,7 @@
     }
 
     .subtitle{
-        margin-left: 1.5em;
+        margin-left: 1.1em;
         font-size: 13.6px;
         font-family: "Open Sans";
         font-weight: bolder;
@@ -126,6 +303,7 @@
         font-size: 10px;
         font-family: "Open Sans";
         color: black;
+        margin-bottom: 0.3em;
     }
 
     .description{
@@ -133,6 +311,8 @@
         font-size: 10.5px;
         font-family: "Open Sans";
         color: black;
+        margin-top: 0.3em;
+        margin-bottom: 0.3em;
     }
 
     }
