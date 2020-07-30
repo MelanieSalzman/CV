@@ -1,0 +1,396 @@
+@media only screen and (min-width:280px) and (max-width:480px){
+
+    body{
+        background: rgb(2,0,36);
+        background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    }
+
+    #container{
+    width: 280px;
+    overflow: hidden;
+    margin: 0 auto;
+    }
+
+    /*Aside section*/
+    aside{
+        background-image: url("../images/Stars.jpg");
+        background-size: cover;
+        padding-left: 1em;
+        padding-right: 1em;
+        display:block;
+        padding-bottom: 0.5em;
+    }
+
+    #name {
+        text-align:center;
+        font-size: 16px;
+        font-family: "Open Sans";
+        font-weight: bolder;
+        color: #3fc7df;
+        margin-top: 1.2em;
+        margin-bottom: .1em;
+        letter-spacing: .1em;
+        text-shadow: 0.05em 0.06em grey
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #imgContainer {
+        max-width: 6em;
+        
+        display:block;
+        margin:auto;   
+    }
+
+    .titleAside{
+        font-size: 14px;
+        font-family: "Open Sans";
+        font-weight: bold;
+        letter-spacing: .1em;
+        color: #3fc7df;
+        display:block;
+    }
+
+    .subtitleAside{
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        font-weight: bold;
+        letter-spacing: .1em;
+        color: #3fc7df;
+    }
+
+    .textAside{
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: white;
+        display: block;
+        margin-bottom: 1em;
+        margin-top: 0.5em;
+    }
+
+    .textLanguages{
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: white;
+        display: block;
+        margin-bottom: 0.5em;
+    }
+
+    p{
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: white;
+    }
+
+    #leftIcons {
+        float:left;
+    }
+
+    #phoneContainer {
+        max-width: 1em;
+        margin-top: 0.6em;
+        margin-right: 0.6em;
+    }
+    #emailContainer {
+        max-width: 1em;
+        margin-top: 0.6em;
+        margin-right: 0.6em;
+    }
+    #inContainer {
+        max-width: 1em;
+        margin-top: 0.6em;
+        margin-right: 0.6em;
+    }
+    #homeContainer {
+        max-width: 1.4em;
+        margin-top: 0.7em;
+        margin-right: 0.6em;
+        margin-left: -0.1em;
+    }
+
+    #rightContact {
+        float:left
+    }
+
+    #leftContainer{
+        float:left;
+        margin-right: 1em;
+        margin-top: 0.7em;
+    }
+    #rightContainer{
+        float:block;
+        margin-top: 0.7em;
+    }
+
+    /*Main Section*/
+    section{
+        background-color: white;
+        display:block;
+        padding-top: 0.5em;
+    }
+
+    .sectionTitle{
+        background-color:  #203572;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 0.7em;
+        margin-bottom: 0.5em;
+        padding: .4em;
+        font-size: 14.7px;
+        color: #3fc7df;
+        font-family: "Open Sans";
+        font-weight: bold;
+        letter-spacing: .1em;
+    }
+
+    .subtitle{
+        margin-left: 1.1em;
+        font-size: 13.6px;
+        font-family: "Open Sans";
+        font-weight: bold;
+        letter-spacing: .1em;
+        color: #3fc7df;
+    }
+
+    .date{
+        margin-left: 1.5em;
+        font-size: 10px;
+        font-family: "Open Sans";
+        color: #203572;
+        margin-bottom: 0.3em;
+    }
+
+    .description{
+        margin-left: 1.5em;
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: #203572;
+        margin-top: 0.3em;
+        margin-bottom: 0.8em;
+    }
+
+    #textCourses{
+        margin-left: 0.6em;
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: #203572;
+        margin-bottom: 0.3em;
+        display:inline-block;
+    }
+
+    #leftCourses{
+        margin-left: 1.5em;
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: #3fc7df;
+        margin-bottom: 0.3em;
+        display:inline-block;
+        font-weight: bold;
+    }
+    #coursesPC{
+        display:none;
+    }
+    
+    }
+
+@media only screen and (min-width:480px){
+    
+    body{
+        background: rgb(2,0,36);
+        background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    }
+
+    #container{
+    width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: white;
+    }
+
+    /*Aside section*/
+    aside{
+        background-image: url("../images/Stars.jpg");
+        background-size: cover;
+        float: left;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    #name {
+        text-align:center;
+        font-size: 16px;
+        font-family: "Open Sans";
+        font-weight: bolder;
+        color: #3fc7df;
+        margin-top: 1.2em;
+        margin-bottom: .1em;
+        letter-spacing: .1em;
+        text-shadow: 0.05em 0.06em grey
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #imgContainer {
+        max-width: 6em;
+        
+        display:block;
+        margin:auto;   
+    }
+
+    .titleAside{
+        font-size: 14px;
+        font-family: "Open Sans";
+        font-weight: bold;
+        letter-spacing: .1em;
+        color: #3fc7df;
+        display:block;
+    }
+
+    .subtitleAside{
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        font-weight: bold;
+        letter-spacing: .1em;
+        color: #3fc7df;
+    }
+
+    .textAside{
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: white;
+        display: block;
+        margin-bottom: 1em;
+        margin-top: 0.5em;
+    }
+
+    .textLanguages{
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: white;
+        display: block;
+        margin-bottom: 0.5em;
+    }
+
+    p{
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: white;
+    }
+
+    #leftIcons {
+        float:left;
+    }
+
+    #phoneContainer {
+        max-width: 1em;
+        margin-top: 0.6em;
+        margin-right: 0.6em;
+    }
+    #emailContainer {
+        max-width: 1em;
+        margin-top: 0.6em;
+        margin-right: 0.6em;
+    }
+    #inContainer {
+        max-width: 1em;
+        margin-top: 0.6em;
+        margin-right: 0.6em;
+    }
+    #homeContainer {
+        max-width: 1.4em;
+        margin-top: 0.7em;
+        margin-right: 0.6em;
+        margin-left: -0.1em;
+    }
+
+    #rightContact {
+        float:left
+    }
+
+    #leftContainer{
+        float:left;
+        margin-right: 1em;
+        margin-top: 0.7em;
+    }
+    #rightContainer{
+        float:left;
+        margin-top: 0.7em;
+    }
+
+    /*Main Section*/
+    section{
+        background-color: white;
+        float: left;
+    }
+
+    .sectionTitle{
+        background-color:  #203572;
+        width: 17em;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 0.7em;
+        margin-bottom: 0.5em;
+        padding: .4em;
+        font-size: 14.7px;
+        color: #3fc7df;
+        font-family: "Open Sans";
+        font-weight: bold;
+        letter-spacing: .1em;
+    }
+
+    .subtitle{
+        margin-left: 1.1em;
+        font-size: 13.6px;
+        font-family: "Open Sans";
+        font-weight: bold;
+        letter-spacing: .1em;
+        color: #3fc7df;
+    }
+
+    .date{
+        margin-left: 1.5em;
+        font-size: 10px;
+        font-family: "Open Sans";
+        color: #203572;
+        margin-bottom: 0.3em;
+    }
+
+    .description{
+        margin-left: 1.5em;
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: #203572;
+        margin-top: 0.3em;
+        margin-bottom: 0.8em;
+    }
+
+    #textCourses{
+        margin-left: 0.6em;
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: #203572;
+        margin-bottom: 0.3em;
+        float:left;
+    }
+
+    #leftCourses{
+        margin-left: 1.5em;
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: #3fc7df;
+        margin-bottom: 0.3em;
+        float:left;
+        font-weight: bold;
+    }
+
+    #coursesMobile{
+        display:none;
+    }
+
+    }
