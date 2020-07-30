@@ -18,6 +18,7 @@
         padding-left: 1em;
         padding-right: 1em;
         display:block;
+        padding-bottom: 0.5em;
     }
 
     #name {
@@ -128,6 +129,7 @@
     section{
         background-color: white;
         display:block;
+        padding-top: 0.5em;
     }
 
     .sectionTitle{
@@ -188,7 +190,9 @@
         display:inline-block;
         font-weight: bold;
     }
-
+    #coursesPC{
+        display:none;
+    }
     
     }
 
@@ -385,5 +389,8 @@
         font-weight: bold;
     }
 
+    #coursesMobile{
+        display:none;
+    }
 
     }
