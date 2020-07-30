@@ -1,14 +1,14 @@
 @media only screen and (min-width:280px) and (max-width:480px){
 
     body{
-        background-color: lightslategrey;
+        background: rgb(2,0,36);
+        background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     }
 
     #container{
     width: 280px;
     overflow: hidden;
     margin: 0 auto;
-    background-color: white;
     }
 
     /*Aside section*/
@@ -17,6 +17,7 @@
         background-size: cover;
         padding-left: 1em;
         padding-right: 1em;
+        display:block;
     }
 
     #name {
@@ -27,6 +28,8 @@
         color: #3fc7df;
         margin-top: 1.2em;
         margin-bottom: .1em;
+        letter-spacing: .1em;
+        text-shadow: 0.05em 0.06em grey
     }
 
     img {
@@ -44,7 +47,8 @@
     .titleAside{
         font-size: 14px;
         font-family: "Open Sans";
-        font-weight: bolder;
+        font-weight: bold;
+        letter-spacing: .1em;
         color: #3fc7df;
         display:block;
     }
@@ -52,7 +56,8 @@
     .subtitleAside{
         font-size: 10.5px;
         font-family: "Open Sans";
-        font-weight: bolder;
+        font-weight: bold;
+        letter-spacing: .1em;
         color: #3fc7df;
     }
 
@@ -115,13 +120,14 @@
         margin-top: 0.7em;
     }
     #rightContainer{
-        float:left;
+        float:block;
         margin-top: 0.7em;
     }
 
     /*Main Section*/
     section{
         background-color: white;
+        display:block;
     }
 
     .sectionTitle{
@@ -134,14 +140,16 @@
         font-size: 14.7px;
         color: #3fc7df;
         font-family: "Open Sans";
-        font-weight: bolder;
+        font-weight: bold;
+        letter-spacing: .1em;
     }
 
     .subtitle{
         margin-left: 1.1em;
         font-size: 13.6px;
         font-family: "Open Sans";
-        font-weight: bolder;
+        font-weight: bold;
+        letter-spacing: .1em;
         color: #3fc7df;
     }
 
@@ -149,7 +157,7 @@
         margin-left: 1.5em;
         font-size: 10px;
         font-family: "Open Sans";
-        color: black;
+        color: #203572;
         margin-bottom: 0.3em;
     }
 
@@ -157,7 +165,7 @@
         margin-left: 1.5em;
         font-size: 10.5px;
         font-family: "Open Sans";
-        color: black;
+        color: #203572;
         margin-top: 0.3em;
         margin-bottom: 0.8em;
     }
@@ -166,9 +174,9 @@
         margin-left: 0.6em;
         font-size: 10.5px;
         font-family: "Open Sans";
-        color: black;
+        color: #203572;
         margin-bottom: 0.3em;
-        float:left;
+        display:inline-block;
     }
 
     #leftCourses{
@@ -177,7 +185,7 @@
         font-family: "Open Sans";
         color: #3fc7df;
         margin-bottom: 0.3em;
-        float:left;
+        display:inline-block;
         font-weight: bold;
     }
 
@@ -187,7 +195,8 @@
 @media only screen and (min-width:480px){
     
     body{
-        background-color: lightslategrey;
+        background: rgb(2,0,36);
+        background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     }
 
     #container{
@@ -214,6 +223,8 @@
         color: #3fc7df;
         margin-top: 1.2em;
         margin-bottom: .1em;
+        letter-spacing: .1em;
+        text-shadow: 0.05em 0.06em grey
     }
 
     img {
@@ -231,7 +242,8 @@
     .titleAside{
         font-size: 14px;
         font-family: "Open Sans";
-        font-weight: bolder;
+        font-weight: bold;
+        letter-spacing: .1em;
         color: #3fc7df;
         display:block;
     }
@@ -239,7 +251,8 @@
     .subtitleAside{
         font-size: 10.5px;
         font-family: "Open Sans";
-        font-weight: bolder;
+        font-weight: bold;
+        letter-spacing: .1em;
         color: #3fc7df;
     }
 
@@ -314,6 +327,7 @@
 
     .sectionTitle{
         background-color:  #203572;
+        width: 17em;
         margin-left: 1em;
         margin-right: 1em;
         margin-top: 0.7em;
@@ -322,14 +336,16 @@
         font-size: 14.7px;
         color: #3fc7df;
         font-family: "Open Sans";
-        font-weight: bolder;
+        font-weight: bold;
+        letter-spacing: .1em;
     }
 
     .subtitle{
         margin-left: 1.1em;
         font-size: 13.6px;
         font-family: "Open Sans";
-        font-weight: bolder;
+        font-weight: bold;
+        letter-spacing: .1em;
         color: #3fc7df;
     }
 
@@ -337,7 +353,7 @@
         margin-left: 1.5em;
         font-size: 10px;
         font-family: "Open Sans";
-        color: black;
+        color: #203572;
         margin-bottom: 0.3em;
     }
 
@@ -345,7 +361,7 @@
         margin-left: 1.5em;
         font-size: 10.5px;
         font-family: "Open Sans";
-        color: black;
+        color: #203572;
         margin-top: 0.3em;
         margin-bottom: 0.8em;
     }
@@ -354,7 +370,7 @@
         margin-left: 0.6em;
         font-size: 10.5px;
         font-family: "Open Sans";
-        color: black;
+        color: #203572;
         margin-bottom: 0.3em;
         float:left;
     }
