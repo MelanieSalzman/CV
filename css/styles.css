@@ -1,12 +1,11 @@
 @media only screen and (min-width:280px) and (max-width:480px){
 
     body{
-        background-color: lig   3tslategrey;
+        background-color: lightslategrey;
     }
 
     #container{
     width: 280px;
-    border: 1px solid black; 
     overflow: hidden;
     margin: 0 auto;
     background-color: white;
@@ -14,7 +13,8 @@
 
     /*Aside section*/
     aside{
-        background-color: #203572;
+        background-image: url("../images/Stars.jpg");
+        background-size: cover;
         padding-left: 1em;
         padding-right: 1em;
     }
@@ -35,7 +35,8 @@
     }
 
     #imgContainer {
-        max-width: 7em;
+        max-width: 6em;
+        
         display:block;
         margin:auto;   
     }
@@ -45,6 +46,7 @@
         font-family: "Open Sans";
         font-weight: bolder;
         color: #3fc7df;
+        display:block;
     }
 
     .subtitleAside{
@@ -63,6 +65,14 @@
         margin-top: 0.5em;
     }
 
+    .textLanguages{
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: white;
+        display: block;
+        margin-bottom: 0.5em;
+    }
+
     p{
         font-size: 10.5px;
         font-family: "Open Sans";
@@ -70,40 +80,43 @@
     }
 
     #leftIcons {
-        display:inline-block;
+        float:left;
     }
 
     #phoneContainer {
         max-width: 1em;
         margin-top: 0.6em;
-        margin-right: 1em;
+        margin-right: 0.6em;
     }
     #emailContainer {
         max-width: 1em;
         margin-top: 0.6em;
-        margin-right: 1em;
+        margin-right: 0.6em;
     }
     #inContainer {
         max-width: 1em;
         margin-top: 0.6em;
-        margin-right: 1em;
+        margin-right: 0.6em;
     }
     #homeContainer {
         max-width: 1.4em;
         margin-top: 0.7em;
-        margin-right: 1em; 
+        margin-right: 0.6em;
         margin-left: -0.1em;
     }
 
     #rightContact {
-        display:inline-block
+        float:left
     }
 
     #leftContainer{
-        display: inline-block;
+        float:left;
+        margin-right: 1em;
+        margin-top: 0.7em;
     }
     #rightContainer{
-        display: inline-block;
+        float:left;
+        margin-top: 0.7em;
     }
 
     /*Main Section*/
@@ -117,7 +130,7 @@
         margin-right: 1em;
         margin-top: 0.7em;
         margin-bottom: 0.5em;
-        padding: .3em;
+        padding: .4em;
         font-size: 14.7px;
         color: #3fc7df;
         font-family: "Open Sans";
@@ -136,7 +149,7 @@
         margin-left: 1.5em;
         font-size: 10px;
         font-family: "Open Sans";
-        color: black; 
+        color: black;
         margin-bottom: 0.3em;
     }
 
@@ -145,7 +158,8 @@
         font-size: 10.5px;
         font-family: "Open Sans";
         color: black;
-        margin-bottom: 0.3em;
+        margin-top: 0.3em;
+        margin-bottom: 0.8em;
     }
 
     #textCourses{
@@ -153,7 +167,6 @@
         font-size: 10.5px;
         font-family: "Open Sans";
         color: black;
-        margin-top: 0.5em;
         margin-bottom: 0.3em;
         float:left;
     }
@@ -163,9 +176,9 @@
         font-size: 10.5px;
         font-family: "Open Sans";
         color: #3fc7df;
-        margin-top: 0.5em;
         margin-bottom: 0.3em;
         float:left;
+        font-weight: bold;
     }
 
     
@@ -179,7 +192,6 @@
 
     #container{
     width: 600px;
-    border: 1px solid black; 
     overflow: hidden;
     margin: 0 auto;
     background-color: white;
@@ -187,7 +199,8 @@
 
     /*Aside section*/
     aside{
-        background-color: #203572;
+        background-image: url("../images/Stars.jpg");
+        background-size: cover;
         float: left;
         padding-left: 1em;
         padding-right: 1em;
@@ -305,7 +318,7 @@
         margin-right: 1em;
         margin-top: 0.7em;
         margin-bottom: 0.5em;
-        padding: .3em;
+        padding: .4em;
         font-size: 14.7px;
         color: #3fc7df;
         font-family: "Open Sans";
@@ -334,7 +347,7 @@
         font-family: "Open Sans";
         color: black;
         margin-top: 0.3em;
-        margin-bottom: 1em;
+        margin-bottom: 0.8em;
     }
 
     #textCourses{
@@ -342,7 +355,6 @@
         font-size: 10.5px;
         font-family: "Open Sans";
         color: black;
-        margin-top: 0.5em;
         margin-bottom: 0.3em;
         float:left;
     }
@@ -352,9 +364,9 @@
         font-size: 10.5px;
         font-family: "Open Sans";
         color: #3fc7df;
-        margin-top: 0.5em;
         margin-bottom: 0.3em;
         float:left;
+        font-weight: bold;
     }
 
 
