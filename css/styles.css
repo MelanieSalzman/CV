@@ -147,6 +147,27 @@
         color: black;
         margin-bottom: 0.3em;
     }
+
+    #textCourses{
+        margin-left: 0.6em;
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: black;
+        margin-top: 0.5em;
+        margin-bottom: 0.3em;
+        float:left;
+    }
+
+    #leftCourses{
+        margin-left: 1.5em;
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: #3fc7df;
+        margin-top: 0.5em;
+        margin-bottom: 0.3em;
+        float:left;
+    }
+
     
     }
 
@@ -189,6 +210,7 @@
 
     #imgContainer {
         max-width: 6em;
+        
         display:block;
         margin:auto;   
     }
@@ -238,22 +260,22 @@
     #phoneContainer {
         max-width: 1em;
         margin-top: 0.6em;
-        margin-right: 1em;
+        margin-right: 0.6em;
     }
     #emailContainer {
         max-width: 1em;
         margin-top: 0.6em;
-        margin-right: 1em;
+        margin-right: 0.6em;
     }
     #inContainer {
         max-width: 1em;
         margin-top: 0.6em;
-        margin-right: 1em;
+        margin-right: 0.6em;
     }
     #homeContainer {
         max-width: 1.4em;
         margin-top: 0.7em;
-        margin-right: 1em;
+        margin-right: 0.6em;
         margin-left: -0.1em;
     }
 
@@ -312,7 +334,28 @@
         font-family: "Open Sans";
         color: black;
         margin-top: 0.3em;
-        margin-bottom: 0.3em;
+        margin-bottom: 1em;
     }
+
+    #textCourses{
+        margin-left: 0.6em;
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: black;
+        margin-top: 0.5em;
+        margin-bottom: 0.3em;
+        float:left;
+    }
+
+    #leftCourses{
+        margin-left: 1.5em;
+        font-size: 10.5px;
+        font-family: "Open Sans";
+        color: #3fc7df;
+        margin-top: 0.5em;
+        margin-bottom: 0.3em;
+        float:left;
+    }
+
 
     }
